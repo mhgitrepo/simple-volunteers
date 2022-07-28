@@ -1,9 +1,12 @@
 import React from 'react';
+import './Activity.css'
 
-const Activity = () => {
+const Activity = ({activity}) => {
+    const {title, img} = activity;
     return (
-        <div>
-            
+        <div className='activity'>
+            <img src={img} alt={title} />
+            <h2>{title}</h2>
         </div>
     );
 };

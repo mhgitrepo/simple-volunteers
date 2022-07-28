@@ -1,0 +1,8 @@
+.activity{
+    border: 2px solid salmon;
+    border-radius: 8px;
+    padding-top: 20px;
+}
+.activity img{
+    width: 200px;
+}
