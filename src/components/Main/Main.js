@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import useVolunteers from '../../hooks/useVolunteers';
 import Activity from '../Activity/Activity';
 import './Main.css';
 
